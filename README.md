@@ -1,4 +1,5 @@
 # The KQL Mysteries
+---
 Welcome to the collateral repository for The KQL Mysteries series!
 <br><br>
 The KQL Mysteries is a fun, fictional story but with real-world educational impact. Its A new, continuing way to learn KQL and expert approaches to security threats. Can you help solve each mystery before Jon Block? 

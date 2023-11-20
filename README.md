@@ -5,7 +5,7 @@ The KQL Mysteries is a fun, fictional story but with real-world educational impa
 Or maybe you can detect when our hero or his colleagues do the wrong thing?
 <p align="right"><img src="https://github.com/rod-trent/KQLMysteries/blob/main/Images/supersmall.png" alt="The KQL Mysteries"></center></p>
 <br><br>
-### TOC
+###TOC
 <br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-prologue" target="_blank">Prologue</a> - <i>Posted November 20, 2023</i><br>
 

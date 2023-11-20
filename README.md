@@ -13,4 +13,6 @@ Or maybe you can detect when our hero or his colleagues do the wrong thing?
 
 <p align="right"><img src="https://github.com/rod-trent/KQLMysteries/blob/main/Images/supersmall.png" alt="The KQL Mysteries"></center></p>
 
+![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/supersmall.png)
+
 

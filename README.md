@@ -9,6 +9,7 @@ Or maybe you can detect when our hero or his colleagues do the wrong thing?
 ---
 <br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-prologue" target="_blank">Prologue</a> - <i>Posted November 20, 2023</i><br>
+* <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-1" target="_blank">Chapter 1: Discovery</a> - <i>Posted November 27, 2023</i><br>
 <br><br>
 
 ![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/supersmall.png)

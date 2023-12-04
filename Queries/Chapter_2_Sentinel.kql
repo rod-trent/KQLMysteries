@@ -1,0 +1,17 @@
+//Microsoft Sentinel query: Identifies malware that has been hidden in the recycle bin within the last 3 weeks.
+
+let timeframe = 21d;
+let procList = dynamic(["cmd.exe","ftp.exe","schtasks.exe","powershell.exe","rundll32.exe","regsvr32.exe","msiexec.exe"]);
+let ProcessCreationEvents=() {
+let processEvents=SecurityEvent
+| where EventID==4688
+| where isnotempty(CommandLine)
+| project TimeGenerated, Computer, Account = SubjectUserName, AccountDomain = SubjectDomainName, NewProcessName,
+FileName = Process, CommandLine,  ParentProcessName;
+processEvents};
+ProcessCreationEvents 
+| where TimeGenerated >= ago(timeframe)
+| where FileName in~ (procList)
+| where CommandLine contains ":\\recycler"
+| project StartTimeUtc = TimeGenerated, Computer, Account, NewProcessName, FileName, CommandLine, ParentProcessName
+| extend timestamp = StartTimeUtc, AccountCustomEntity = Account, HostCustomEntity = Computer

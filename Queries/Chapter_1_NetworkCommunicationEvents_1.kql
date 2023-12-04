@@ -1,0 +1,3 @@
+NetworkCommunicationEvents
+| where RemoteIP has "192.168.0."
+| summarize count() by RemoteIP, RemotePort

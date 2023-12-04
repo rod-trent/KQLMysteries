@@ -1,0 +1,15 @@
+//Microsoft Defender query: Identifies files downloaded through a web browser in the last month that may coincide with a Malware alert.
+
+DeviceFileEvents
+| where Timestamp > ago(30d) // change this value to adjust the time range
+| where InitiatingProcessFileName in ("chrome.exe", "firefox.exe", "edge.exe", "iexplore.exe") // change this list to include other browsers
+| where FileOriginUrl has_any (".exe", ".msi", ".bat", ".ps1", ".vbs", ".jar") // change this list to include other executable file extensions
+| where isnotempty(FileOriginUrl)
+| join kind=inner (
+    AlertEvidence
+    | where Timestamp > ago(30d) // change this value to match the time range above
+    | where Title has "Malware"
+    | project DeviceId, FileName, SHA1
+) on DeviceId, FileName, SHA1
+| project Timestamp, DeviceName, InitiatingProcessFileName, FileOriginUrl, FileName, SHA1
+| order by Timestamp desc

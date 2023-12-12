@@ -16,6 +16,7 @@ Or maybe you can detect when our hero or his colleagues do the wrong thing?
 ![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/supersmall.png)
 
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-the-holiday-2023" target="_blank">The Holiday 2023 Episode Part 1: Christmas Carol</a> - <i>Posted December 11, 2023</i><br>
+* <a href="https://rodtrent.substack.com/p/the-kql-mysteries-the-holiday-2023-704" target="_blank">The KQL Mysteries: The Holiday 2023 Episode Part 2: Cracking Codes and Saving Holidays</a> - <i>Posted December 12, 2023</i><br>
 
 ![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/ChristmasMystery1150.png)
 

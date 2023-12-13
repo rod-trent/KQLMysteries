@@ -1,0 +1,6 @@
+let vulnerablePort = 3389;
+SecurityPatchLogs
+| where TimeGenerated > ago(30d)
+| where Port == vulnerablePort and PatchStatus == "Pending"
+| project TimeGenerated, ComputerName, PatchName, PatchStatus
+| order by TimeGenerated asc

@@ -1,0 +1,6 @@
+let ip = "203.0.113.42"; 
+NetworkTrafficLogs 
+| where TimeGenerated > ago(1d) 
+| where DestinationAddress == "Database Server" and SourceAddress == ip 
+| project TimeGenerated, SourceAddress, DestinationAddress, Protocol, Port, BytesSent, BytesReceived, Data 
+| order by TimeGenerated desc  

@@ -1,0 +1,5 @@
+NetworkTrafficLogs 
+| where TimeGenerated > ago(1d) 
+| where DestinationAddress == "Database Server" 
+| project TimeGenerated, SourceAddress, DestinationAddress, Protocol, Port, BytesSent, BytesReceived 
+| order by TimeGenerated desc  

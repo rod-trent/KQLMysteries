@@ -1,0 +1,7 @@
+let suspiciousIP = "198.51.100.7";
+NetworkTrafficLogs
+| where TimeGenerated >= now(-1h)
+| where SourceAddress == suspiciousIP
+| summarize Count=count() by SourceAddress, Port
+| where Count > 5
+| order by Count desc

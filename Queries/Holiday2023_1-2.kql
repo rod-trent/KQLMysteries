@@ -1,0 +1,4 @@
+let ip = "203.0.113.42";
+IPAddresses 
+| where Address == ip 
+| project Country, Region, City  

@@ -1,0 +1,5 @@
+SigninLogs 
+| where TimeGenerated > ago(1d) 
+| where ResourceDisplayName == "Database Server" 
+| project TimeGenerated, UserPrincipalName, ResultType, ResultDescription, IPAddress 
+| order by TimeGenerated desc  

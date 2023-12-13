@@ -1,0 +1,5 @@
+DatabaseLogs 
+| where TimeGenerated > ago(1d) 
+| where ServerName == "Database Server" 
+| project TimeGenerated, UserName, Action, ObjectName, Details 
+| order by TimeGenerated desc  

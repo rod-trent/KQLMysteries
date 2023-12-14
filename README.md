@@ -23,6 +23,8 @@ Ready for The KQL Mysteries merch?!
 
 Visit: https://must-learn-kql.creator-spring.com/listing/the-kql-mysteries-holiday-ep
 
+All proceeds go to the <a href="https://www.stjude.org/">St. Jude Children's Research Hospital</a>.
+
 ![The KQL Mysteries Merch](https://github.com/rod-trent/KQLMysteries/blob/main/Images/kqlmysteriesmerch.png)
 
 

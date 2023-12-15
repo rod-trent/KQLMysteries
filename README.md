@@ -5,6 +5,7 @@ Welcome to the collateral repository for The KQL Mysteries series!
 <b><i>The KQL Mysteries</b></i> is a fun, fictional story but with real-world educational impact. Its A new, continuing way to learn KQL and expert approaches to security threats. Can you help solve each mystery before Jon Block? 
 Or maybe you can detect when our hero or his colleagues do the wrong thing?
 <br><br>
+Just getting started with KQL? Check out: https://aka.ms/MustLearnKQL 
 ### TOC
 ---
 ![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/supersmall.png)

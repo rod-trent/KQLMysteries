@@ -19,6 +19,7 @@ Just getting started with KQL? Check out: https://aka.ms/MustLearnKQL
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-the-holiday-2023-704" target="_blank">The KQL Mysteries: The Holiday 2023 Episode Part 2: Cracking Codes and Saving Holidays</a> - <i>Posted December 12, 2023</i><br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-the-holiday-2023-1ac" target="_blank">The KQL Mysteries: The Holiday 2023 Episode Part 3: A Festive Chase to Doom</a> - <i>Posted December 13, 2023</i><br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-the-holiday-2023-f61" target="_blank">The KQL Mysteries: The Holiday 2023 Episode Part 4: A Twist of Fate</a> - <i>Posted December 14, 2023</i><br>
+* <a href="https://rodtrent.substack.com/p/the-kql-mysteries-the-holiday-2023-e21" target="_blank">The KQL Mysteries: The Holiday 2023 Episode - Post Credits Scene: Santa's Special Delivery</a> - <i>Posted December 20, 2023</i><br>
 ---
 Ready for The KQL Mysteries merch?!
 

@@ -13,6 +13,7 @@ Just getting started with KQL? Check out: https://aka.ms/MustLearnKQL
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-prologue" target="_blank">Prologue</a> - <i>Posted November 20, 2023</i><br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-1" target="_blank">Chapter 1: Discovery</a> - <i>Posted November 27, 2023</i><br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-2" target="_blank">Chapter 2: Phase 1</a> - <i>Posted December 4, 2023</i><br>
+* <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-3" target="_blank">Chapter 3: Financial Impact</a> - <i>Posted January 5, 2024</i><br>
 <br><br>
 ![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/AllHolidayMysteriesSmall.png)
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-the-holiday-2023" target="_blank">The KQL Mysteries: The Holiday 2023 Episode Part 1: Christmas Carol</a> - <i>Posted December 11, 2023</i><br>

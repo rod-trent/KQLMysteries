@@ -1,0 +1,16 @@
+//Locate remote servers where data was sent, and then identify the cryptocurrency wallets where the money was transferred
+
+SecurityEvent
+| where EventID == 3 // Network connection event
+| where ProcessName has_any ('MsMpEng.exe', 'cert.exe', 'agent.exe') // Malicious processes
+| where RemoteAddress !in ('127.0.0.1', '::1') // Exclude local connections
+| where RemotePort != 443 // Exclude HTTPS connections
+| join kind=inner ( // Join with the blob storage table that contains the IP and domain information
+    externaldata (IP:string, Domain:string, Location:string, Owner:string, Reputation:string) 
+    [h'https://storageaccount.blob.core.windows.net/container/blob.csv'] with (format="csv")
+) on $left.RemoteAddress == $right.IP // Join on the remote address and IP columns
+| join kind=inner ( // Join with the blob storage table that contains the cryptocurrency transaction and wallet information
+    externaldata (TransactionID:string, SourceWallet:string, DestinationWallet:string, Amount:double, Date:datetime) 
+    [h'https://storageaccount.blob.core.windows.net/container/blob.csv'] with (format="csv")
+) on $left.CommandLine contains $right.SourceWallet or $left.CommandLine contains $right.DestinationWallet // Join on the command line and wallet columns
+| project TimeGenerated, ComputerName, Account, ProcessName, RemoteAddress, RemotePort, Domain, Location, Owner, Reputation, TransactionID, SourceWallet, DestinationWallet, Amount, Date // Select relevant fields

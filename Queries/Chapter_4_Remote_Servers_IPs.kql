@@ -1,0 +1,12 @@
+// Get the list of remote servers
+let remote_servers = dynamic(["server1.onion", "server2.onion", "server3.onion"]);
+// Get the DeviceNetworkEvents table and filter by the remote servers
+DeviceNetworkEvents
+| where RemoteUrl in (remote_servers)
+// Get the IP addresses and domains of the remote servers
+| extend RemoteIP = tostring(split(RemoteUrl, ":")[0])
+| extend RemoteDomain = tostring(split(RemoteUrl, ".")[0])
+// Summarize the results by IP address and domain
+| summarize count() by RemoteIP, RemoteDomain
+// Order the results by count in descending order
+| order by count_ desc

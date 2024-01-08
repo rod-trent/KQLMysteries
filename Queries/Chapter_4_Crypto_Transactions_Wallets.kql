@@ -1,0 +1,13 @@
+// Get the list of wallets
+let wallets = dynamic(["1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa", "1FfmbHfnpaZjKFvyi1okTjJJusN455paPH", "1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF"]);
+// Get the CommonSecurityLog table and filter by the wallets
+CommonSecurityLog
+| where TimeGenerated > ago(7d)
+| where DestinationIP in (wallets)
+// Get the transactions and wallets of the threat actors
+| extend TransactionID = tostring(split(DestinationPort, ":")[0])
+| extend WalletID = tostring(split(DestinationPort, ":")[1])
+// Summarize the results by transaction and wallet
+| summarize count() by TransactionID, WalletID
+// Order the results by count in descending order
+| order by count_ desc

@@ -6,6 +6,8 @@ Welcome to the collateral repository for The KQL Mysteries series!
 Or maybe you can detect when our hero or his colleagues do the wrong thing?
 <br><br>
 Just getting started with KQL? Check out: https://aka.ms/MustLearnKQL 
+<br><br>
+Catch up on all the video/audio versions of The KQL Mysteries series here: https://youtube.com/playlist?list=PLsHyMQ1fyeuJ8jhUq_Vdhz-4808qL4SlK&si=_hqI_4fQqP3hMaD5 
 ### TOC
 ---
 ![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/supersmall.png)

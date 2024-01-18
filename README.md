@@ -17,6 +17,7 @@ Catch up on all the video/audio versions of The KQL Mysteries series here: https
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-2" target="_blank">Chapter 2: Phase 1</a> - <i>Posted December 4, 2023</i><br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-3" target="_blank">Chapter 3: Financial Impact</a> - <i>Posted January 5, 2024</i><br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-4" target="_blank">Chapter 4: The Chase</a> - <i>Posted January 9, 2024</i><br>
+* <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-5" target="_blank">Chapter 5: The Capture?</a> - <i>Posted January 18, 2024</i><br>
 <br><br>
 ![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/AllHolidayMysteriesSmall.png)
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-the-holiday-2023" target="_blank">The KQL Mysteries: The Holiday 2023 Episode Part 1: Christmas Carol</a> - <i>Posted December 11, 2023</i><br>

@@ -1,0 +1,25 @@
+// Get the master wallet and the hidden service
+let master_wallet = “1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF”;
+let hidden_service = “server1.onion”;
+// Get the CommonSecurityLog table and filter by the master wallet
+CommonSecurityLog
+| where TimeGenerated > ago(7d)
+| where DestinationIP == master_wallet
+// Get the transactions and IP addresses of the threat actors
+| extend TransactionID = tostring(split(DestinationPort, “:”)[0])
+| extend IPAddress = tostring(split(DestinationPort, “:”)1)
+// Summarize the results by transaction and IP address
+| summarize count() by TransactionID, IPAddress
+// Order the results by count in descending order
+| order by count_ desc
+// Get the DeviceNetworkEvents table and filter by the hidden service
+DeviceNetworkEvents
+| where TimeGenerated > ago(7d)
+| where RemoteUrl == hidden_service
+// Get the IP addresses and domains of the threat actors
+| extend IPAddress = tostring(split(RemoteUrl, “:”)[0])
+| extend Domain = tostring(split(RemoteUrl, “.”)[0])
+// Summarize the results by IP address and domain
+| summarize count() by IPAddress, Domain
+// Order the results by count in descending order
+| order by count_ desc

@@ -12,7 +12,7 @@ Catch up on all the video/audio versions of The KQL Mysteries series here: https
 ---
 ![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/supersmall.png)
 <br>
-* <a href="https://rodtrent.substack.com/p/the-kql-mysteries-prologue" target="_blank">Prologue</a> - <i>Posted November 20, 2023</i><br>
+* <a href="https://rodtrent.substack.com/p/the-kql-mysteries-prologue" target="_blank">Prologue</a> - <i>Posted November 20, 2023</i><br> Video/Audio Version: https://youtu.be/S9XVjCOuydw?si=OqvVMecSNx0b9OjH
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-1" target="_blank">Chapter 1: Discovery</a> - <i>Posted November 27, 2023</i><br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-2" target="_blank">Chapter 2: Phase 1</a> - <i>Posted December 4, 2023</i><br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-3" target="_blank">Chapter 3: Financial Impact</a> - <i>Posted January 5, 2024</i><br>

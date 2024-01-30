@@ -1,0 +1,7 @@
+let suspectAccount = "J.Doe";
+union SecurityEvent, Syslog, AuditLogs
+| where TimeGenerated between(startTime .. endTime)
+| where Account has suspectAccount
+| extend Source = iff(EventSource == 'SecurityEvent', 'Windows Logs', iff(EventSource == 'Syslog', 'Linux Logs', 'Azure Logs'))
+| project TimeGenerated, Activity, Source, Account
+| sort by TimeGenerated asc

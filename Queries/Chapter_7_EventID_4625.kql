@@ -1,0 +1,8 @@
+let startTime = ago(7d);
+let endTime = now();
+SecurityEvent
+| where TimeGenerated between(startTime .. endTime)
+| where AccountType == 'User' and EventID == 4625
+| summarize Count = count() by Account
+| order by Count desc
+| take 10

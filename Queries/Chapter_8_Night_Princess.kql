@@ -1,0 +1,7 @@
+let startTime = ago(7d);
+let endTime = now();
+let knownAliases = dynamic(['NightPrincess', 'PrincessOfTheNight', 'NP']);
+SecurityEvent
+| where TimeGenerated between(startTime .. endTime)
+| where Account has_any (knownAliases)
+| project TimeGenerated, Account, Computer, EventID

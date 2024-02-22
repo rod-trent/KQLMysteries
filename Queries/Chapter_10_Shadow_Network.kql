@@ -1,0 +1,9 @@
+let shadowNetwork = datatable (ServerName:string, FakeData:string)
+[
+    "Server-Alpha", "EncryptedPackage1",
+    "Server-Beta", "EncryptedPackage2",
+    // Add more servers and data
+];
+shadowNetwork
+| extend TrapTriggered = strcat(ServerName, "_trap")
+| project ServerName, TrapTriggered

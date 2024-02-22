@@ -1,0 +1,5 @@
+let traceStart = now();
+shadowNetwork
+| where TrapTriggered contains "trap"
+| extend TraceActive = iif(now() > traceStart, true, false)
+| project ServerName, TraceActive

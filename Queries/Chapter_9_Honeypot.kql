@@ -1,0 +1,5 @@
+let startTime = ago(24h);
+HoneypotLogs
+| where TimeGenerated >= startTime
+| where ActivityType == "honeypot_trigger"
+| project TimeGenerated, SourceIP, DestinationIP, Protocol, Payload

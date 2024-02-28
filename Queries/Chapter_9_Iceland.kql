@@ -1,0 +1,11 @@
+let icelandIPRanges = datatable(StartIP: string, EndIP: string)
+[
+    "31.209.148.0", "31.209.148.255", // Example range 1
+    // Add additional ranges here
+];
+let startTime = ago(7d);
+ActivityLogs
+| where TimeGenerated >= startTime
+| mv-expand range=icelandIPRanges
+| where IPAddress >= range.StartIP and IPAddress <= range.EndIP
+| project TimeGenerated, IPAddress, ActivityDetails

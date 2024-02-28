@@ -12,6 +12,7 @@ Catch up on all the video/audio versions of The KQL Mysteries series here: https
 ---
 ![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/supersmall.png)
 <br>
+# The KQL Mysteries: Season 1
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-prologue" target="_blank">Prologue</a> - <i>Posted November 20, 2023</i><br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-1" target="_blank">Chapter 1: Discovery</a> - <i>Posted November 27, 2023</i><br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-2" target="_blank">Chapter 2: Phase 1</a> - <i>Posted December 4, 2023</i><br>

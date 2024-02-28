@@ -1,0 +1,5 @@
+let targetServer = "Server-Rho";
+shadowNetwork
+| where ServerName == targetServer
+| extend InfiltrationDetected = iif(TrapTriggered contains "_trap", true, false)
+| project ServerName, InfiltrationDetected

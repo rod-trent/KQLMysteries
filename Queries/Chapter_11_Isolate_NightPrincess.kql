@@ -1,0 +1,5 @@
+let isolationProtocol = datetime_add('minute', -5, now());
+shadowNetwork
+| where InfiltrationDetected == true and TrapTriggered contains "_trap"
+| extend IsolationInitiated = iif(now() > isolationProtocol, true, false)
+| project ServerName, IsolationInitiated

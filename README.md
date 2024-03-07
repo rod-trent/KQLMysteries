@@ -25,6 +25,14 @@ Catch up on all the video/audio versions of The KQL Mysteries series here: https
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-9" target="_blank">Chapter 9: The Ghost of Krampus Past</a> - <i>Posted February 15, 2024</i><br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-10" target="_blank">Chapter 10: The Shadow’s Gambit</a> - <i>Posted February 23, 2024</i><br>
 * <a href="https://rodtrent.substack.com/p/the-kql-mysteries-chapter-11" target="_blank">Chapter 11: The Dawn Revelation</a> - <i>Posted March 1, 2024</i><br>
+* Chapter 12: The Final Choice</a> - <i>Due March 8, 2024</i><br>
+---
+
+![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/Season2small.jpeg)
+<br>
+# The KQL Mysteries: Season 2
+
+*Coming soon...*
 
 <br><br>
 ![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/AllHolidayMysteriesSmall.png)

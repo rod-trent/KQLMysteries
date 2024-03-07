@@ -33,7 +33,7 @@ Catch up on all the video/audio versions of The KQL Mysteries series here: https
 # The KQL Mysteries: Season 2
 
 *Coming soon...*
-
+---
 <br><br>
 ![The KQL Mysteries](https://github.com/rod-trent/KQLMysteries/blob/main/Images/AllHolidayMysteriesSmall.png)
 # The KQL Mysteries: 2023 Holiday Episode
